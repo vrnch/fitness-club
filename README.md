@@ -12,5 +12,5 @@ That's my simple university study project created for the fitness club domain. F
 
 # Used Design
 - Two-tier Architecture
-- MVP Pattern
+- MVP
 - Factory Method
