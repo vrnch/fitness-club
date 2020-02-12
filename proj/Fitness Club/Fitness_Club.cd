@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Client" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAAAAAAABAgAAAAAAAAAEAFAEAAgAAAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Contract" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgAICAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\Contract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Employee" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACEAAAAAAAAAAAgAAAAAAAQAEAEAEAgAAIAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Position" Collapsed="true">
+    <Position X="22.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\Position.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Room" Collapsed="true">
+    <Position X="24" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAIAAAAAAAABAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\Room.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Schedule" Collapsed="true">
+    <Position X="25.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAgQCAAAAAAAAAAgAIAAAAAAgA=</HashCode>
+      <FileName>Helper Classes\Tables\Schedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Service" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.Subscription" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAABAAAAAAAAAAAAABAEAAgAAAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\Subscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Tables.SubscriptionType" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Tables\SubscriptionType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.ClientModel" Collapsed="true">
+    <Position X="22.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAABAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Model\ClientModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.ContractModel" Collapsed="true">
+    <Position X="24" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ContractModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.EmployeeModel" Collapsed="true">
+    <Position X="25.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgACAAAABQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\EmployeeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.PositionModel" Collapsed="true">
+    <Position X="22.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\PositionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.RoomModel" Collapsed="true">
+    <Position X="24" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\RoomModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.ScheduleModel" Collapsed="true">
+    <Position X="25.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABQAQAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Model\ScheduleModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.ServiceModel" Collapsed="true">
+    <Position X="22.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Model\ServiceModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.SubscriptionModel" Collapsed="true">
+    <Position X="24" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAABAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SubscriptionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Model.SubscriptionTypeModel" Collapsed="true">
+    <Position X="25.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\SubscriptionTypeModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Factory" Collapsed="true">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgABAACEAAQAAAAAhBAABAQAAEAAAQgAAAAACAAA=</HashCode>
+      <FileName>Helper Classes\Factory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Fitness_Club.Presenter" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgACAUAAAAAAAAAAgAAAQAAAEgAAgggAEBAICCAAAAA=</HashCode>
+      <FileName>Presenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.View" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/waoCCoAAKKgQDMhEKKiJFJubUp0IRKGECRyBSMCJH0=</HashCode>
+      <FileName>View.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Fitness_Club.Helper_Classes.Connection" Collapsed="true">
+    <Position X="19.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABAAAAAAAEAAAAAABAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

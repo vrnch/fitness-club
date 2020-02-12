@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{04F4634E-5DFF-4243-910A-A338F586D76C}</ProjectGuid>
+    <ProjectGuid>{2020DCCC-B7D2-42ED-A816-1C25C7A8FEED}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>fitness_club</RootNamespace>
-    <AssemblyName>fitness_club</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>Fitness_Club</RootNamespace>
+    <AssemblyName>Fitness Club</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -33,9 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Npgsql">
+      <HintPath>..\..\..\..\..\Program Files (x86)\PostgreSQL\Npgsql\bin\netstandard2.0\Npgsql.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.3\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,34 +55,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrator.cs">
+    <Compile Include="Helper Classes\Connection.cs" />
+    <Compile Include="Helper Classes\Factory.cs" />
+    <Compile Include="Helper Classes\Tables\Client.cs" />
+    <Compile Include="Helper Classes\Tables\Contract.cs" />
+    <Compile Include="Helper Classes\Tables\Employee.cs" />
+    <Compile Include="Helper Classes\Tables\Position.cs" />
+    <Compile Include="Helper Classes\Tables\Room.cs" />
+    <Compile Include="Helper Classes\Tables\Schedule.cs" />
+    <Compile Include="Helper Classes\Tables\Service.cs" />
+    <Compile Include="Helper Classes\Tables\Subscription.cs" />
+    <Compile Include="Helper Classes\Tables\SubscriptionType.cs" />
+    <Compile Include="Model\ClientModel.cs" />
+    <Compile Include="Model\ContractModel.cs" />
+    <Compile Include="Model\EmployeeModel.cs" />
+    <Compile Include="Model\PositionModel.cs" />
+    <Compile Include="Model\RoomModel.cs" />
+    <Compile Include="Model\ScheduleModel.cs" />
+    <Compile Include="Model\ServiceModel.cs" />
+    <Compile Include="Model\SubscriptionModel.cs" />
+    <Compile Include="Model\SubscriptionTypeModel.cs" />
+    <Compile Include="Presenter.cs" />
+    <Compile Include="View.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Administrator.Designer.cs">
-      <DependentUpon>Administrator.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Authorization.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Authorization.Designer.cs">
-      <DependentUpon>Authorization.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Employee.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Employee.Designer.cs">
-      <DependentUpon>Employee.cs</DependentUpon>
+    <Compile Include="View.Designer.cs">
+      <DependentUpon>View.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Administrator.resx">
-      <DependentUpon>Administrator.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Authorization.resx">
-      <DependentUpon>Authorization.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Employee.resx">
-      <DependentUpon>Employee.cs</DependentUpon>
+    <EmbeddedResource Include="View.resx">
+      <DependentUpon>View.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,6 +96,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="FitnessClub.cd" />
+    <None Include="Fitness_Club.cd" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -97,6 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

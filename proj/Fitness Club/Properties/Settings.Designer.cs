@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace fitness_club.Properties
+namespace Fitness_Club.Properties
 {
 
 

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("fitness_club")]
+[assembly: AssemblyTitle("Fitness Club")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("fitness_club")]
+[assembly: AssemblyProduct("Fitness Club")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("04f4634e-5dff-4243-910a-a338f586d76c")]
+[assembly: Guid("2020dccc-b7d2-42ed-a816-1c25c7a8feed")]
 
 // Version information for an assembly consists of the following four values:
 //
